@@ -20,12 +20,10 @@ public class Griffindor extends Hogvards{
             System.out.println("Students " + this.getName() + " & " + student.getName() + " the same");
         }
     }
-
     @Override
     public String toString() {
         return super.toString() + ", brave " + brave + ", honor " + honor;
     }
-
     @Override
     public void says(Hogvards obj) {
         System.out.println(obj.getName() + ": I am a Griffindorian!");

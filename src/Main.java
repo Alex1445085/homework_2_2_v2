@@ -19,10 +19,8 @@ public class Main {
 
         Hogvards[] hogvardStudenst = new Hogvards[] {griffindors[0], slyserins[0], griffindors[1], slyserins[2]};
         for(Hogvards stud: hogvardStudenst) {
-            //System.out.println(stud.says(stud));
             stud.says(stud);
         }
-        //Griffindor.compareStudents(0, 1);
     }
 
 }

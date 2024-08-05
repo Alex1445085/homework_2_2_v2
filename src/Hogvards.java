@@ -9,10 +9,10 @@ public abstract class Hogvards {
         this.magicPower = magicPower;
         this.transGression = transGression;
     }
-
     public String getName() {return this.name;}
     public int getMagicPower() {return this.magicPower;}
     public int getTransGression() {return this.transGression;}
+
     @Override
     public String toString() { return "Name " + name + ", power " + magicPower + ", transGression " + transGression; }
     public void says(Hogvards obj) { System.out.println(obj.name + ": I am a Hogvard student!"); };

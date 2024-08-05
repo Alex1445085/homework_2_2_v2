@@ -19,9 +19,8 @@ public class Slyserin extends Hogvards {
     public String toString() {
         return super.toString() + ", vlast " + vlast + ", ambition " + ambition + ", determination " + determination;
     }
-/**
     @Override
     public void says(Hogvards obj) {
         System.out.println(obj.getName() + ": I am a Slyserinian");
-    }*/
+    }
 }
